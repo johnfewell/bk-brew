@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import 'semantic-ui-css/semantic.min.css';
-import { Header, Container, Divider, Image } from 'semantic-ui-react'
-
+import "semantic-ui-css/semantic.min.css";
+import { Header, Container, Divider, Image, Menu } from "semantic-ui-react";
 
 class App extends Component {
   render() {
@@ -13,10 +12,16 @@ class App extends Component {
           <div className="gradient-2">
             <div className="gradient-3">
               <header>
-              <Image src='skate.jpg' fluid />
+                <Image src="skate.jpg" fluid />
               </header>
+              <Menu>
+                <Menu.Item name="editorials">Editorials</Menu.Item>
 
-               <Container text>
+                <Menu.Item name="reviews">Reviews</Menu.Item>
+
+                <Menu.Item name="upcomingEvents">Upcoming Events</Menu.Item>
+              </Menu>
+              <Container text>
                 <Header as="h1">Self Piloting Skateboards</Header>
                 <Divider />
                 <p>
@@ -33,7 +38,7 @@ class App extends Component {
                   nec ultrices. Vivamus sit amet porta nisi. Vivamus lectus
                   eros, iaculis non tellus at, finibus hendrerit felis.
                 </p>
-                <Header as='h2'>The Daily Grind</Header>
+                <Header as="h2">The Daily Grind</Header>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Pellentesque placerat, sapien non lacinia consequat, massa
@@ -48,7 +53,7 @@ class App extends Component {
                   nec ultrices. Vivamus sit amet porta nisi. Vivamus lectus
                   eros, iaculis non tellus at, finibus hendrerit felis.
                 </p>
-                <Header as='h2'>Ramping Up</Header>
+                <Header as="h2">Ramping Up</Header>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Pellentesque placerat, sapien non lacinia consequat, massa
