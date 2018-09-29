@@ -2,7 +2,14 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
-import { Header, Container, Divider, Image, Menu } from "semantic-ui-react";
+import {
+  Header,
+  Container,
+  Divider,
+  Image,
+  Menu,
+  List
+} from "semantic-ui-react";
 
 class App extends Component {
   render() {
@@ -14,15 +21,15 @@ class App extends Component {
               <header>
                 <Image src="skate.jpg" fluid />
               </header>
- 
+
               <Container text>
-              <Menu>
-                <Menu.Item name="editorials">Editorials</Menu.Item>
+                <Menu>
+                  <Menu.Item name="editorials">Editorials</Menu.Item>
 
-                <Menu.Item name="reviews">Reviews</Menu.Item>
+                  <Menu.Item name="reviews">Reviews</Menu.Item>
 
-                <Menu.Item name="upcomingEvents">Upcoming Events</Menu.Item>
-              </Menu>
+                  <Menu.Item name="upcomingEvents">Upcoming Events</Menu.Item>
+                </Menu>
                 <Header as="h1">Self Piloting Skateboards</Header>
                 <Divider />
                 <p>
@@ -73,7 +80,31 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <footer>Copyright: ME</footer>
+        <footer>
+          {" "}
+          <List>
+            <List.Item>
+              <List.Icon name="users" />
+              <List.Content>Semantic UI</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="marker" />
+              <List.Content>New York, NY</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="mail" />
+              <List.Content>
+                <a href="mailto:jack@semantic-ui.com">jack@semantic-ui.com</a>
+              </List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="linkify" />
+              <List.Content>
+                <a href="http://www.semantic-ui.com">semantic-ui.com</a>
+              </List.Content>
+            </List.Item>
+          </List>
+        </footer>
       </div>
     );
   }
