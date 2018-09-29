@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.gradient-1 {
+  height: 100%;
+  background-image: -webkit-linear-gradient(167deg, #bbda9e, rgba(167, 109, 160, .6) 38%, transparent);
+  background-image: linear-gradient(283deg, #bbda9e, rgba(167, 109, 160, .6) 38%, transparent);
+}
+
+.gradient-2 {
+  height: 50%;
+  background-image: -webkit-linear-gradient(270deg, #f4c4b5, hsla(14, 74%, 83%, .51) 40%, transparent 81%);
+  background-image: linear-gradient(180deg, #f4c4b5, hsla(14, 74%, 83%, .51) 40%, transparent 81%);
+}
+
+.gradient-3 {
+  height: 50%;
+  background-image: -webkit-radial-gradient(circle farthest-side at 7% 84%, #b0ca49, transparent 37%);
+  background-image: radial-gradient(circle farthest-side at 7% 84%, #b0ca49, transparent 37%);
+}
