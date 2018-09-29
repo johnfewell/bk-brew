@@ -14,6 +14,8 @@ class App extends Component {
               <header>
                 <Image src="skate.jpg" fluid />
               </header>
+ 
+              <Container text>
               <Menu>
                 <Menu.Item name="editorials">Editorials</Menu.Item>
 
@@ -21,7 +23,6 @@ class App extends Component {
 
                 <Menu.Item name="upcomingEvents">Upcoming Events</Menu.Item>
               </Menu>
-              <Container text>
                 <Header as="h1">Self Piloting Skateboards</Header>
                 <Divider />
                 <p>
