@@ -81,6 +81,7 @@ class App extends Component {
           </div>
         </div>
         <footer>
+        <Container textAlign='center'>
           {" "}
           <List>
             <List.Item>
@@ -104,6 +105,7 @@ class App extends Component {
               </List.Content>
             </List.Item>
           </List>
+          </Container>
         </footer>
       </div>
     );
