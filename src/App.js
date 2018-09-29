@@ -8,6 +8,8 @@ import {
   Divider,
   Image,
   Menu,
+  Segment,
+  Flag,
   List
 } from "semantic-ui-react";
 
@@ -100,7 +102,7 @@ class App extends Component {
             </List.Item>
             <List.Item>
               <List.Icon name="linkify" />
-              <List.Conte nt>
+              <List.Content>
                 <a href="http://www.semantic-ui.com">semantic-ui.com</a>
               </List.Content>
             </List.Item>
