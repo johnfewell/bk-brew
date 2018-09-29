@@ -100,11 +100,14 @@ class App extends Component {
             </List.Item>
             <List.Item>
               <List.Icon name="linkify" />
-              <List.Content>
+              <List.Conte nt>
                 <a href="http://www.semantic-ui.com">semantic-ui.com</a>
               </List.Content>
             </List.Item>
           </List>
+          <Segment>
+    <Flag name='ca' />
+     </Segment>
           </Container>
         </footer>
       </div>
